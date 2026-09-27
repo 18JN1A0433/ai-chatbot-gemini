@@ -28,8 +28,8 @@ if "messages" not in st.session_state:
 
 
 # Page title
-st.title("🤖 My Gemini AI Chatbot")
-st.write("A conversational AI chatbot powered by Google Gemini.")
+st.title("🤖 Bindu's Gemini AI Chatbot")
+st.write("A conversational AI chatbot powered by Google Gemini and created by bindu.")
 
 
 # Display previous messages

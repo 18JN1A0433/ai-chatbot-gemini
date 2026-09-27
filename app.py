@@ -3,7 +3,7 @@ from google import genai
 
 
 # Get Gemini API key securely from Streamlit Secrets
-api_key = st.secrets["GEMINI_API_KEY"]
+api_key = st.secrets["Open_ai_api_key"]
 
 
 # Create Gemini client

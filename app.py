@@ -32,6 +32,8 @@ st.title("🤖 Bindu's Gemini AI Chatbot")
 st.write("A conversational AI chatbot powered by Google Gemini and created by bindu.")
 
 button1 = st.button("Hit me")
+if button1:
+    st.write("You are amazing, Keep going with a big smile on your face :-))")
 # Display previous messages
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):

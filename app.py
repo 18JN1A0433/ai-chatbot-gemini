@@ -39,8 +39,7 @@ button2 = st.button("Submit")
 if like:
     if button2:
         st.write("Thanks!I like it too")
-    else:
-        st.write("How sad! :-(")
+        
 # Display previous messages
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):

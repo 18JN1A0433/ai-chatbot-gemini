@@ -34,11 +34,7 @@ st.write("A conversational AI chatbot powered by Google Gemini and created by bi
 button1 = st.button("Hit me")
 if button1:
     st.write("You are amazing, Keep going with a big smile on your face :-))")
-like = st.checkbox("Do you like this chatbot?")
-button2 = st.button("Submit")
-if like:
-    if button2:
-        st.write("Thanks!I like it too")
+
         
 # Display previous messages
 for message in st.session_state.messages:

@@ -66,4 +66,4 @@ if user_input:
             "content": response.text
         }
     )
-    st.butto("Hit me")
+    st.button("Hit me")

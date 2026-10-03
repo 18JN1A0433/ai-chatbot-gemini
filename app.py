@@ -31,7 +31,7 @@ if "messages" not in st.session_state:
 st.title("🤖 Bindu's Gemini AI Chatbot")
 st.write("A conversational AI chatbot powered by Google Gemini and created by bindu.")
 
-
+button1 = st.button("Hit me")
 # Display previous messages
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
